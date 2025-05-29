@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            height: 200vh;
+        }
+        .outer
+        {
+            border: 2px dashed black;
+            height: 300px;
+            width: 100%;
+            margin: 10px;
+            font-size: 30px;
+        }
+        .inner
+        {
+            border: 2px dashed black;
+            height: 200px;
+            width: 100%;
+            margin: 10px;
+            padding: 10px;
+            position: relative;
+        }
+        .item
+        {
+            border: 2px dashed black;
+            width: 100%;
+            margin: 10px;
+            padding: 10px;
+            background-color: lightgrey;
+            position: relative;
+        }
+        .one
+        {
+            background-color: lightblue;
+            margin: 2px;
+            position: relative;
+            left: 20px;
+           
+        }
+        .two
+        {
+            background-color: grey;
+            position: relative;
+            
+        }
+        .Three
+        {
+            background-color: blue;
+            position: sticky;
+            top: 0;
+            
+        }
+        .Four
+        {
+            background-color: lightpink;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="outer">This is the first paragraph. It contains <span class="one">some </span><span class="two"> text </span> to demonstrate how paragraphs are structured in HTML.
+        <div class="inner">This is the second paragraph. Each <span class="Three">paragraph element</span> p is used to group a block of text and automatically adds space above and below.
+            <div class="item">This is the third paragraph. You can use<span class="Four"> multiple paragraphs</span> inside a container like a `<div>` to create a block of content with separated text sections.</div>
+            
+        </div>
+    </div>
+</body>
+</html>
