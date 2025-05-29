@@ -1,0 +1,74 @@
+#main-title
+{
+    color: blue;
+    text-align: center;
+}
+
+.highlight
+{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(59, 141, 195);
+}
+
+p
+{
+    text-align: center;
+    color: #515e77;
+}
+
+*{
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom:23px;
+    
+}
+
+div li{
+    color: darkgoldenrod;
+}
+
+.parent > p{
+    font-size: larger;
+    color: blue;;
+}
+
+
+a{
+    text-decoration: none;
+    color: red;
+    text-align: center;
+}
+
+a:link
+{
+    color: yellow;
+}
+
+a:hover{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+}
+
+a:active{
+    color: chartreuse;
+    font-size: 70px;
+    background-color: yellow;
+}
+a:visited
+{
+    color: green;
+}
+
+li:link
+{
+    color: blue;
+}
+
+li:hover
+{
+    color: #b7acac;
+    cursor: pointer;
+    font-size: 1.2em;
+}

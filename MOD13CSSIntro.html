@@ -1,0 +1,73 @@
+<!--Module – 13: CSS2-Introduction
+
+Benefits of CSS-CSS Syntax-External Style Sheet using &lt;link&gt;-Multiple
+Style Sheets-Value Lengths and Percentages
+
+| Topic                         | Key Point                                                  |
+| ----------------------------- | ---------------------------------------------------------- |
+| Benefits of CSS               | Faster, reusable, cleaner design management                |
+| CSS Syntax                    | `selector { property: value; }`                            |
+| External Style Sheets         | Use `<link>` to apply styles from a `.css` file            |
+| Multiple Style Sheets         | Later styles override earlier ones (if there's a conflict) |
+| Value Lengths and Percentages | Support absolute (px, cm) and relative (%, em) units       |
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <table
+        border="1"
+        style="
+          background-color: rgb(68, 69, 66);
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+        "
+      >
+        <caption>
+          <strong> Benefits Of CSS Styling </strong>
+        </caption>
+        <thead style="background-color: grey">
+          <tr>
+            <th style="width: 500px">Benefits</th>
+            <th style="width: 500px">Description</th>
+          </tr>
+        </thead>
+        <tbody style="background-color: lightgray">
+          <tr>
+            <td>Separation of Content & Design</td>
+            <td>HTML handles structure, while CSS manages the presentation.</td>
+          </tr>
+          <tr>
+            <td>Reusability</td>
+            <td>One stylesheet can style multiple pages.</td>
+          </tr>
+          <tr>
+            <td>Faster Page Load</td>
+            <td>Cleaner HTML and shared styles reduce code duplication.</td>
+          </tr>
+          <tr>
+            <td>Maintenance</td>
+            <td>
+              Update the look of an entire website by editing one CSS file.
+            </td>
+          </tr>
+          <tr>
+            <td>Consistent</td>
+            <td>Design Ensures uniform style across all pages.</td>
+          </tr>
+        </tbody>
+        <colgroup>
+          <col style="background-color: red" />
+          <col style="background-color: blue" />
+        </colgroup>
+      </table>
+    </div>
+  </body>
+</html>
